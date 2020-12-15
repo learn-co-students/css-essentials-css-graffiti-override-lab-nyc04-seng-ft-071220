@@ -1,1 +1,29 @@
 /* write your override styles here */
+/* this takes the id of wall and the class of tag-1 */
+#wall .tag-1{
+  display: none;
+}
+/* this takes the id of wall and the div ID of tage-2 -->  <div id="tag-2"></div>*/
+#wall div#tag-2 {
+    display: none;
+  }
+/* this takes the ID of wall within the div of ID tag-3 and class name of slick.wicked */
+  div#wall #tag-3.slick.wicked{
+    display:none;
+  }
+/* this takes the ID of wall and the ID of tag 4 with the class parent */
+  #wall .parent #tag-4{
+      display: none;
+  }
+/* selects the "div ID of wall and the div class parent, div ID tag-5 and class name of click */
+  div#wall div.parent #tag-5.slick{
+    display:none;
+  }
+/* body and select the div of wall , class name of parent and in that div child of the div tag -6 */
+  body div#wall div.parent div:last-child div#tag-6{
+      display:none;
+  }
+  /* body tag and select the div class of wall and class div of the parent class of the first child and ID of tag-7 and class of slick */
+  body div#wall div.parent div:first-child > div#tag-7.slick{
+      display:none;
+  }
